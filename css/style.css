@@ -236,25 +236,22 @@ body {
 }
 .social-icons  a span {
 	display:inline-block;
-	width:40px;
-	height:40px;
-	background:url(../images/icons/social-icons.png) no-repeat 0px 0px;
-}
-.social-icons  span.facebook {
-	background-position:0px 0px;
-}
-.social-icons span.instagram {
-	background-position:0px 0px;
 	width: 30px;
 	height: 30px;
 	margin: 5px;
-	background:url(../images/icons/instagram.png) no-repeat 0px 0px;
+	background:url(../images/icons/social.png) no-repeat 0px 0px;
+}
+.social-icons  span.facebook {
+	background-position:-60px -30px;
+}
+.social-icons span.instagram {
+	background-position:-30px 0px;
 }
 .social-icons span.linkedin {
-	background-position:-80px 0px;
+	background-position:-30px -90px;
 }
 .social-icons span.googleplus {
-	background-position:-120px 0px;
+	background-position:0px -60px;
 }
 span.line1 {
 	width:484px;
