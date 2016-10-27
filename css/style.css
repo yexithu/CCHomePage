@@ -5,6 +5,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
 /*--- reset code ---*/
+@font-face {
+    font-family: "OstrichSans Light";
+    src: url("../fonts/OstrichSans-Light.otf");
+}
+
 body{	
 	padding:0;
 	margin:0;
@@ -80,6 +85,10 @@ body {
     background-color:transparent;
     border-color:transparent;
 }
+.navbar-nav li {
+	font-family: 'OstrichSans Light';
+	font-size: 25px;
+} 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
     color: #fff;
     background-color: rgba(8, 8, 8, 0);
@@ -87,7 +96,7 @@ body {
 .navbar-inverse .navbar-brand {
     color: #fff;
 	font-size:2.5em;
-	font-family: 'Cinzel', serif;
+	font-family: 'OstrichSans Light', serif;
 	font-weight:bold;
 	text-transform:uppercase;
 }
@@ -211,6 +220,7 @@ body {
 }
 .banner-info {
     text-align: center;
+    font-family: 'OstrichSans Light', arial;
     width: 100%;
     margin: 280px 0 0 390px;
 }
@@ -220,7 +230,7 @@ body {
 	font-weight: bold;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 	margin: 0;
-	font-family: 'Cinzel', serif;
+	/*font-family: 'Cinzel', serif;*/
 	padding: 60px 0 20px 0;
 }
 .banner-info p {
@@ -256,7 +266,7 @@ body {
 span.line1 {
 	width:484px;
 	height:1px;
-	background-color:#fff;
+	background-color:#afafaf;
 	display:block;
 	margin:0 auto;
 }
@@ -264,7 +274,7 @@ span.line2 {
 	width:484px;
 	height:1px;
 	display:block;
-	background-color:#fff;
+	background-color:#afafaf;
 	margin:0 auto;
 } 
 /*-- /banner --*/
@@ -276,7 +286,7 @@ span.line2 {
 .about-me h3 {
 	color:#A1B3A4;
 	font-size:30px;
-	font-family: arial, sans-serif;;
+	font-family: arial, sans-serif;
 	line-height:25px;
 	font-weight:bold;
 	padding: 67px 0 55px;
