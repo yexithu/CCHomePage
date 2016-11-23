@@ -496,10 +496,10 @@ span.shortline5 {
 .mygallery h3 {
 	color:#A1B3A4;
 	font-size:30px;
-	font-family: arial, sans-serif;
+	font-family: 'Cinzel', serif;
 	line-height:25px;
 	font-weight:bold;
-	padding: 50px 0 0px;
+	padding: 50px 0 40px;
 }
 .mygallery h4 {
 	color:#A1B3A4;
